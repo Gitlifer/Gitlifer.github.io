@@ -4,11 +4,11 @@ description: "A web component for MIDI playback and visualization in the browser
 
 github:
   is_project_page: true
-  repository_name: html-midi-player
+  repository_name: FYP Generated Midi Demo
   repository_url: https://github.com/Gitlifer/html-midi-player
   owner_name: Gitlifer
   owner_url: https://github.com/Gitlifer/
-  project_tagline: Play and display MIDI files on the web
+  project_tagline: Play and display generated music on the web
 
 theme: jekyll-theme-cayman
 
