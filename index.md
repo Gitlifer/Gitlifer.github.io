@@ -2,8 +2,8 @@
 ---
 
 <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_0.mid"></midi-visualizer>
-<midi-player src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@gh-pages/assets/midi/XL38/get_0.mid"></midi-visualizer>
+<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@gh-pages/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
 
@@ -19,8 +19,8 @@
 ---
 ---
 <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_0.mid"></midi-visualizer>
-<midi-player src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid"></midi-visualizer>
+<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
 
@@ -30,10 +30,7 @@
 </div>
 
 <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_2.mid"></midi-visualizer>
-<midi-player src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_2.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player/assets/midi/XL38/get_0.mid"></midi-visualizer>
+<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
-
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
