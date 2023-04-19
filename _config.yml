@@ -1,13 +1,13 @@
-title: "html-midi-player"
+title: "FYP-midi-demo"
 tagline: "Play and display MIDI files online"
 description: "A web component for MIDI playback and visualization in the browser. It allows playing MIDI files online."
 
 github:
   is_project_page: true
   repository_name: html-midi-player
-  repository_url: https://github.com/cifkao/html-midi-player
-  owner_name: Ondřej Cífka
-  owner_url: https://github.com/cifkao
+  repository_url: https://github.com/Gitlifer/html-midi-player
+  owner_name: Gitlifer
+  owner_url: https://github.com/Gitlifer/
   project_tagline: Play and display MIDI files on the web
 
 theme: jekyll-theme-cayman
