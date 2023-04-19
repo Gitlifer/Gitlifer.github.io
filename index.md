@@ -24,6 +24,3 @@
 <midi-player src="https://github.com/Gitlifer/html-midi-player/blob/www/assets/midi/XL38/get_2.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
-
-
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
