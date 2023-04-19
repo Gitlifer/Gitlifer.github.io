@@ -1,12 +1,4 @@
 ---
----
-
-<div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@gh-pages/assets/midi/XL38/get_0.mid"></midi-visualizer>
-<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@gh-pages/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
-</midi-player>
-</div>
-
 
 <div markdown="1" style="margin-top: 5ex;">
 ## Beief intro
@@ -16,21 +8,20 @@
 ## XL38
 </div>
 
----
----
 <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid"></midi-visualizer>
-<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid"></midi-visualizer>
+<midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
 </div>
 
 
 <div markdown="1" style="margin-top: 5ex;">
 ## Linear
-</div>
 
 <div>
-<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player/assets/midi/XL38/get_0.mid"></midi-visualizer>
-<midi-player src="https://cdn.jsdelivr.net/Gitlifer/html-midi-player/assets/midi/XL38/get_0.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+<midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_1.mid"></midi-visualizer>
+<midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@test_resource/assets/midi/XL38/get_1.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
 </midi-player>
+</div>
+
 </div>
