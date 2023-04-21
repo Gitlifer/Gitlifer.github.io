@@ -31,16 +31,13 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">FYP music Demo</h1>
       <h2 class="project-tagline">Play and display MIDI files on the web</h2>
-      <h2>by Ruiyu Zhang</h2>
+      <h2 class="project-tagline">by Ruiyu Zhang</h2>
       
       
     </header>
 
     <main id="content" class="main-content" role="main">
       
-    <div>
-    <midi-visualizer type="waterfall" id="mainVisualizer"></midi-visualizer>
-    </div>
 
 
 <div style="margin-top: 5ex;">
@@ -53,34 +50,41 @@
     <code class="language-plaintext highlighter-rouge">CP-LSTM</code>, and
     <code class="language-plaintext highlighter-rouge">CP-Comp</code>,
       I selected some best-quality music. Enjoy! :)</p>
-
+  
+  <section>
   <h2>Demo 1</h2>
-  <p><i>produced by CP-XL</i></p>
+  <p>produced by <i>CP-XL</i></p>
   <div>
-  <midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_3.mid"></midi-visualizer>
-  <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_3.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+  <midi-visualizer type="piano-roll" id="demo1Visualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_3.mid"></midi-visualizer>
+  <midi-visualizer type="waterfall" id="demo1Visualizer"></midi-visualizer>
+  <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_3.mid" sound-font visualizer="#demo1Visualizer" id="demo1Player">
   </midi-player>
   </div>
+  </section>
   
-
+  <section>
   <h2>Demo 2</h2>
-  <p><i>produced by CP-XL</i></p>
-  
+  <p>produced by <i>CP-XL</i></p>
   <div>
-  <midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_24.mid"></midi-visualizer>
-  <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_24.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
+  <midi-visualizer type="piano-roll" id="demo2Visualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_24.mid"></midi-visualizer>
+  <midi-visualizer type="waterfall" id="demo2Visualizer"></midi-visualizer>
+  <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/XL38/get_24.mid" sound-font visualizer="#demo2Visualizer" id="demo2Player">
   </midi-player>
   </div>
+  </section>
 
+  <section>
   <h2>Demo 3</h2>
-  <p><i>produced by CP-Linear</i></p>
+  <p>produced by <i>CP-Linear</i></p>
 
   <div>
   <midi-visualizer type="piano-roll" id="mainVisualizer" src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/linear/get_35.mid"></midi-visualizer>
   <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/linear/get_35.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
   </midi-player>
   </div>
+  </section>  
   
+  <section>
   <h2>Demo 4</h2>
   <p><i>produced by CP-Linear</i></p>
 
@@ -89,6 +93,7 @@
   <midi-player src="https://cdn.jsdelivr.net/gh/Gitlifer/html-midi-player@resources/midi/linear/get_29.mid" sound-font visualizer="#mainVisualizer" id="mainPlayer">
   </midi-player>
   </div>
+  </section>
   
   <h2>Demo 5</h2>
   <p><i>produced by CP-Lstm</i></p>
